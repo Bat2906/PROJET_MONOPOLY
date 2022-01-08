@@ -1,0 +1,103 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+
+//prototype du sous programme couleur
+
+void couleur(int couleurtexte,int couleurfond);
+void gotoligcol( int lig, int col );
+
+void couleur(int couleurtexte, int couleurfond)
+
+ {
+     HANDLE H=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(H,couleurfond*16+couleurtexte);
+ }
+
+
+void gotoligcol( int lig, int col )
+{
+  COORD mycoord;
+
+mycoord.X = col;
+
+mycoord.Y = lig;
+
+SetConsoleCursorPosition( GetStdHandle( STD_OUTPUT_HANDLE ), mycoord );
+
+}
+
+int main()
+{
+    int choixMenu;
+
+
+
+    couleur(10,1);
+    gotoligcol(5, 20);
+
+
+     printf("MENU PRINCIPAL\n");
+
+
+     printf(" \n");
+
+    printf("1.Lancer une nouvelle partie\n");
+    printf(" \n");
+
+    printf("2.Sauvegarder  partie en cours\n");
+    printf(" \n");
+        printf("3.Charger une ancienne partie\n");
+    printf(" \n");
+
+
+    printf("4.Les regles du jeu\n");
+    printf(" \n");
+
+    printf("5.Le nom des membres du projet\n");
+    printf(" \n");
+
+    printf("6.Quitter\n");
+    printf(" \n");
+
+    couleur(15,1);
+
+    printf("Quel est votre choix ?\n");
+    printf(" \n");
+
+    scanf("%d", &choixMenu);
+
+switch(choixMenu)
+
+{
+    case 1:
+    printf("Vous avez choisi de lancer une nouvelle partie\n");
+    break;
+case 2:
+    printf("Vous avez choisi de sauvegarder la partie en cours\n");
+    break;
+case 3 :
+    printf("Vous avez choisi de charger une ancienne partie\n");
+    break;
+case 4:
+    printf("REGLES DU JEU\n");
+    break;
+case 5:
+    printf("Vous avez choisi d'afficher le nom des membres de l'equipe du projet\n");
+    break;
+case 6:
+    printf("Etes vous certain(e) de quitter ?\n");
+    break;
+default :
+    printf("Continuer de jouer\n");
+
+
+}
+
+printf(" \n");
+
+return 0;
+
+}
+
