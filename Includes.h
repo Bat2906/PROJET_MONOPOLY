@@ -8,6 +8,6 @@
 #include <time.h>
 #include <windows.h>
 
-int place_actu_joueur = 0;
+int place_actu_joueur;
 
 #endif // INCLUDES_H_INCLUDED
