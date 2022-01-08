@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    int premierDe, secondDe;
+    int doubles = 0;
+    int deplacement;
+
+    srand(time(NULL));
+
+    printf("Lancer les des : \n");
+    premierDe = rand()%(6-1)+1;
+    secondDe = rand()%(6-1)+1;
+    printf("|%d| ", premierDe);
+    printf(" |%d|\n", secondDe);
+    printf("\n");
+    deplacement = premierDe + secondDe;
+    printf("Avancez votre pion de %d\n", deplacement);
+
+    do
+    {
+        if (premierDe==secondDe)
+        {
+            printf("Vous avez fait un double\n");
+            printf("\n");
+            printf("Veuillez relancer les des : \n");
+            premierDe = rand()%(6-1)+1;
+            secondDe = rand()%(6-1)+1;
+            printf("|%d| ", premierDe);
+            printf(" |%d|\n", secondDe);
+
+            printf("\n");
+            deplacement = premierDe + secondDe;
+            printf("Avancez votre pion de %d\n", deplacement);
+            printf("\n");
+
+            doubles = doubles+1;
+        }
+
+    }while(premierDe==secondDe);
+
+    if (doubles==3)
+    {
+        printf("Allez en prison !");
+    }
+
+    return 0;
+}
