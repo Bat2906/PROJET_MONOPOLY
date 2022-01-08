@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1641293775 source:c:\users\baptiste\desktop\monopoly_r1\color_noms.c
+	"Color.h"
+	"Includes.h"
+
+1641255997 c:\users\baptiste\desktop\monopoly_r1\color.h
+
+1641594256 c:\users\baptiste\desktop\monopoly_r1\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+	<time.h>
+	<windows.h>
+
+1641420853 source:c:\users\baptiste\desktop\monopoly_r1\main.c
+	"Includes.h"
+	"Joueur.h"
+	"TestWindows.h"
+
+1641596511 c:\users\baptiste\desktop\monopoly_r1\joueur.h
+
+1641335947 source:c:\users\baptiste\desktop\monopoly_r1\joueur.c
+	"Joueur.h"
+
+1641337939 c:\users\baptiste\desktop\monopoly_r1\testwindows.h
+
