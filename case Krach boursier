@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void choixJoueur()
+{
+    char nomJoueur[20];
+    char marque[15];;
+    printf("Choisissez un joueur : \n");
+    scanf("%s", nomJoueur);
+    printf("%s, saisissez le nom de la derniere marque que vous avez achetee : \n", nomJoueur);
+    scanf("%s", marque);
+    printf("Remettez cette carte a la banque\n");
+    printf("Cette marque est remise en jeu\n");
+    printf("Si vous avez place des maisons ou un hotel sur cette marque, remettez-les aussi a la banque\n");
+
+}
+
+int main()
+{
+    choixJoueur();
+    return 0;
+}
