@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void afficherConsigne()
+{
+    printf("JACKPOT !!!\n");
+    printf("Vous avez touche le Jackpot ! Recevez 350$\n");
+}
+void sommeTotale()
+{
+    int gain, somme, sommeTot;
+    gain = 350;
+    printf("Saisissez votre somme d'argent : \n");
+    scanf("%d", &somme);
+    sommeTot = somme+gain;
+    printf("Votre solde est maintenant de : %d$\n", sommeTot);
+}
+
+int main()
+{
+    afficherConsigne();
+    sommeTotale();
+
+    return 0;
+}
