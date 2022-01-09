@@ -490,14 +490,73 @@ t_carteChance*creer()
             printf("Vous souscrivez a l'abonnement Spotify Family. Pour vous remercier, chaque joueur vous verse 50$\n");
             verseJoueurs = 50;
             printf("\n");
-            printf("Saisissez le nombre de joueurs autre que vous : \n");
-            scanf("%d", &nombreJoueurs);
+            do 
+            {
+                printf("Saisissez le nombre de joueurs autre que vous : \n");
+                scanf("%d", &nombreJoueurs);
+            }while((nombreJoueurs!=1) && (nombreJoueurs!=2) && (nombreJoueurs!=3));
+            
             printf("Saisissez votre somme d'argent : \n");
             scanf("%d", &somme);
             gain = verseJoueurs*nombreJoueurs;
             solde = somme+gain;
             printf("Votre solde est maintenant de : %d$\n", solde);
+            
+            printf("Le deuxieme joueur saisit sa somme d'argent : \n");
+            scanf("%d", &somme2);
+            if(somme2<perte)
+            {
+                printf("Joueur 2, vous n'avez pas assez d'argent pour payer\n");
+                printf("Vous avez fait faillite, vous avez perdu !\n");
+            }
+            else
+            {
+                solde2 = somme2-perte;
+                printf("Joueur 2, votre solde est maintenant de : %d$\n", solde2);
+            }
 
+            if(nombre_Joueurs==2)
+            {
+                printf("Le troisieme joueur saisit sa somme d'argent : \n");
+                scanf("%d", &somme3);
+                if(somme3<perte)
+                {
+                    printf("Joueur 3, vous n'avez pas assez d'argent pour payer\n");
+                    printf("Vous avez fait faillite, vous avez perdu !\n");
+                }
+                else
+                {
+                    solde3 = somme3-perte;
+                    printf("Joueur 3, votre solde est maintenant de : %d$\n", solde3);
+                }
+            }
+            if(nombre_Joueurs==3)
+            {
+                printf("Un troisieme joueur saisit sa somme d'argent : \n");
+                scanf("%d", &somme3);
+                if(somme3<perte)
+                {
+                    printf("Joueur 3, vous n'avez pas assez d'argent pour payer\n");
+                    printf("Vous avez fait faillite, vous avez perdu !\n");
+                }
+                else
+                {
+                    solde3 = somme3-perte;
+                    printf("Joueur 3, votre solde est maintenant de : %d$\n", solde3);
+                }
+                printf("Le quatrieme joueur saisit sa somme d'argent : \n");
+                scanf("%d", &somme4);
+                if(somme4<perte)
+                {
+                    printf("Joueur 4, vous n'avez pas assez d'argent pour payer\n");
+                    printf("Vous avez fait faillite, vous avez perdu !\n");
+                }
+                else
+                {
+                    solde4 = somme4-perte;
+                    printf("Joueur 4, votre solde est maintenant de : %d$\n", solde4);
+                }
+            }
         }
         if((pile->numeroCarte)==15)
         {
