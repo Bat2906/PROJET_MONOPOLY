@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1641758532 source:c:\users\baptiste\desktop\groupe grp 1 projet k\main.c
+	"include.h"
+	"Structures.h"
+
+1641758547 c:\users\baptiste\desktop\groupe grp 1 projet k\include.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+	<time.h>
+	<windows.h>
+
+1641763624 c:\users\baptiste\desktop\groupe grp 1 projet k\structures.h
+
+1641758446 source:c:\users\baptiste\desktop\groupe grp 1 projet k\carte_chance.c
+	"Structures.h"
+	"include.h"
+
+1641759102 source:c:\users\baptiste\desktop\groupe grp 1 projet k\carte_communauté.c
+	"Structures.h"
+	"include.h"
+
