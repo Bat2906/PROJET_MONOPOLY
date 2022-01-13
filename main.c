@@ -22,15 +22,15 @@ void gotoligcol( int lig, int col )
 
 void debut()
 {
-    printf("\n        €€€€€      €€€€€        €€€€€€        €€€€         €€         €€€€€€         €€€€€€€            €€€€€       €€€       €€€     €€€");
-    printf("\n        €€ €€     €€  €€      €€€    €€€      €€ €€        €€       €€€    €€€       €€    €€€        €€€   €€€     €€€        €€€   €€€");
-    printf("\n        €€  €€   €€   €€      €€€    €€€      €€  €€       €€       €€€    €€€       €€     €€€       €€€   €€€     €€€         €€€ €€€");
-    printf("\n        €€   €€ €€    €€      €€€    €€€      €€   €€      €€       €€€    €€€       €€     €€€       €€€   €€€     €€€          €€ €€");
-    printf("\n        €€    €€€€    €€      €€€    €€€      €€    €€     €€       €€€    €€€       €€    €€€        €€€   €€€     €€€           €€€");
-    printf("\n        €€     €€     €€      €€€    €€€      €€     €€    €€       €€€    €€€       €€€€€€€          €€€   €€€     €€€           €€€");
-    printf("\n        €€            €€      €€€    €€€      €€      €€   €€       €€€    €€€       €€               €€€   €€€     €€€           €€€");
-    printf("\n        €€            €€      €€€    €€€      €€       €€  €€       €€€    €€€       €€               €€€   €€€     €€€           €€€");
-    printf("\n        €€            €€        €€€€€€        €€        €€€€€         €€€€€€         €€                 €€€€€       €€€€€€€€€     €€€");
+    printf("\n        â‚¬â‚¬â‚¬â‚¬â‚¬      â‚¬â‚¬â‚¬â‚¬â‚¬        â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬        â‚¬â‚¬â‚¬â‚¬         â‚¬â‚¬         â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬         â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬            â‚¬â‚¬â‚¬â‚¬â‚¬       â‚¬â‚¬â‚¬       â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬ â‚¬â‚¬     â‚¬â‚¬  â‚¬â‚¬      â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬      â‚¬â‚¬ â‚¬â‚¬        â‚¬â‚¬       â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬       â‚¬â‚¬    â‚¬â‚¬â‚¬        â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬        â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬  â‚¬â‚¬   â‚¬â‚¬   â‚¬â‚¬      â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬      â‚¬â‚¬  â‚¬â‚¬       â‚¬â‚¬       â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬       â‚¬â‚¬     â‚¬â‚¬â‚¬       â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬         â‚¬â‚¬â‚¬ â‚¬â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬   â‚¬â‚¬ â‚¬â‚¬    â‚¬â‚¬      â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬      â‚¬â‚¬   â‚¬â‚¬      â‚¬â‚¬       â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬       â‚¬â‚¬     â‚¬â‚¬â‚¬       â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬          â‚¬â‚¬ â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬    â‚¬â‚¬â‚¬â‚¬    â‚¬â‚¬      â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬      â‚¬â‚¬    â‚¬â‚¬     â‚¬â‚¬       â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬       â‚¬â‚¬    â‚¬â‚¬â‚¬        â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬           â‚¬â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬     â‚¬â‚¬     â‚¬â‚¬      â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬      â‚¬â‚¬     â‚¬â‚¬    â‚¬â‚¬       â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬       â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬          â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬           â‚¬â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬            â‚¬â‚¬      â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬      â‚¬â‚¬      â‚¬â‚¬   â‚¬â‚¬       â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬       â‚¬â‚¬               â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬           â‚¬â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬            â‚¬â‚¬      â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬      â‚¬â‚¬       â‚¬â‚¬  â‚¬â‚¬       â‚¬â‚¬â‚¬    â‚¬â‚¬â‚¬       â‚¬â‚¬               â‚¬â‚¬â‚¬   â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬           â‚¬â‚¬â‚¬");
+    printf("\n        â‚¬â‚¬            â‚¬â‚¬        â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬        â‚¬â‚¬        â‚¬â‚¬â‚¬â‚¬â‚¬         â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬         â‚¬â‚¬                 â‚¬â‚¬â‚¬â‚¬â‚¬       â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬     â‚¬â‚¬â‚¬");
 
 
 }
@@ -86,6 +86,9 @@ void Menu()
         break;
         case 5:
         printf("Vous avez choisi d'afficher le nom des membres de l'equipe du projet\n");
+        printf("Julien SMATT\n");
+        printf("Baptiste MEDARD\n");
+        printf("Jennifer KOUASSI\n");
         break;
         case 6:
         printf("Etes vous certain(e) de quitter ?\n");
@@ -190,7 +193,7 @@ void Pseudos()
     printf("Entrez le pseudo du premier joueur : \n");
     scanf("%s", &joueur1);
     printf("\n");
-    printf("%s tu es le joueur n°1\n", joueur1);
+    printf("%s tu es le joueur nÂ°1\n", joueur1);
     printf("\n");
     printf("Ton pion est : %c\n", 0x03);
     //printf("Ta solde est de : %d$\n", solde);
@@ -198,7 +201,7 @@ void Pseudos()
     printf("Entrez le pseudo du deuxieme joueur : \n");
     scanf("%s", &joueur2);
     printf("\n");
-    printf("%s tu es le joueur n°2\n", joueur2);
+    printf("%s tu es le joueur nÂ°2\n", joueur2);
     printf("\n");
     printf("Ton pion est : %c\n", 0x04);
     //printf("Ta solde est de : %d$\n", solde);
@@ -209,7 +212,7 @@ void Pseudos()
         printf("Entrez le pseudo du troisieme joueur : \n");
         scanf("%s", &joueur3);
         printf("\n");
-        printf("%s tu es le joueur n°3\n", joueur3);
+        printf("%s tu es le joueur nÂ°3\n", joueur3);
         printf("\n");
         printf("Ton pion est : %c\n", 0x05);
         //printf("Ta solde est de : %d$\n", solde);
@@ -221,7 +224,7 @@ void Pseudos()
         printf("Entrez le pseudo du troisieme joueur : \n");
         scanf("%s", &joueur3);
         printf("\n");
-        printf("%s tu es le joueur n°3\n", joueur3);
+        printf("%s tu es le joueur nÂ°3\n", joueur3);
         printf("\n");
         printf("Ton pion est : %c\n", 0x05);
         //printf("Ta solde est de : %d$\n", solde);
@@ -229,7 +232,7 @@ void Pseudos()
         printf("Entrez le pseudo du quatrieme joueur : \n");
         scanf("%s", &joueur4);
         printf("\n");
-        printf("%s tu es le joueur n°4\n", joueur4);
+        printf("%s tu es le joueur nÂ°4\n", joueur4);
         printf("\n");
         printf("Ton pion est : %c", 0x06);
         //printf("Ta solde est de : %d$\n", solde);
@@ -252,19 +255,19 @@ void Pseudos()
     if(nombreJoueurs==2)
     {
         choix = rand()%(2-1)+1;
-        printf("C'est au joueur n°%d de jouer",choix);
+        printf("C'est au joueur nÂ°%d de jouer",choix);
         printf("\n");
     }
     if(nombreJoueurs==3)
     {
         choix = rand()%(3-1)+1;
-        printf("C'est au joueur n°%d de jouer", choix);
+        printf("C'est au joueur nÂ°%d de jouer", choix);
         printf("\n");
     }
     if(nombreJoueurs==4)
     {
         choix = rand()%(Joueur4 - Joueur1)+ Joueur1;
-        printf("C'est au joueur n°%d de jouer", choix);
+        printf("C'est au joueur nÂ°%d de jouer", choix);
         printf("\n");
     }
 
@@ -284,7 +287,7 @@ void choixJoueur(int nombreJoueurs)
         printf("%d\n", n);
     }
 
-    for(j=1; j < nombreJoueurs; j++)//données des joueurs initialisées
+    for(j=1; j < nombreJoueurs; j++)//donnÃ©es des joueurs initialisÃ©es
     {
         Joueur[j].argent = 1500;
         Joueur[j].id = j;
@@ -357,12 +360,12 @@ void tourjoueur()
     {
         Lancersdes();
 
-        if (Joueur[place_actu_joueur].position + lancer >= 40)//Le joueurs gagne 200$ s'il passe par la case départ
+        if (Joueur[place_actu_joueur].position + lancer >= 40)//Le joueurs gagne 200$ s'il passe par la case dÃ©part
         {
             Joueur[id].argent += 200;
         }
 
-        if (Joueur[place_actu_joueur].position + lancer == 5)//Si la case impôts est la cinquième...il paye 200$ d'amende
+        if (Joueur[place_actu_joueur].position + lancer == 5)//Si la case impÃ´ts est la cinquiÃ¨me...il paye 200$ d'amende
         {
             Joueur[id].argent -= 200;
         }
@@ -384,7 +387,7 @@ void tourjoueur()
         indice = indice+1;
 
 
-        //Carte Communauté
+        //Carte CommunautÃ©
         t_carteCaisseCommunaute*creer2();
         t_carteCaisseCommunaute**tasDeCartes2;
         int taille2 = 9;
@@ -523,14 +526,14 @@ void Sortirdeprison(int* Nbtoursprison, int nbjoueurs, int* CarteSortiePrison, s
     int premierDe, secondDe;
     int k;
 
-    if (Joueur[place_actu_joueur].position >= 31)//envoyé direct en prison sans le bonus case départ
+    if (Joueur[place_actu_joueur].position >= 31)//envoyÃ© direct en prison sans le bonus case dÃ©part
     {
         Joueur[place_actu_joueur].argent -= 200;
     }
 
     do
     {
-        printf("Veuillez taper 1 pour sortir en lançant les dés\n");
+        printf("Veuillez taper 1 pour sortir en lanÃ§ant les dÃ©s\n");
         if (*CarteSortiePrison>0)
         {
             printf("Veuillez taper 2 pour utiliser votre carte sortie de prison\n");
@@ -599,10 +602,10 @@ void initialisationProprieter()
     Proprieter[1].loyer[5] = 260;
     Proprieter[1].amelloyer = 50;
 
-    Proprieter[3].type = 'Carte Communauté';
-    Proprieter[18].type = 'Carte Communauté';
-    Proprieter[28].type = 'Carte Communauté';
-    Proprieter[34].type = 'Carte Communauté';
+    Proprieter[3].type = 'Carte CommunautÃ©';
+    Proprieter[18].type = 'Carte CommunautÃ©';
+    Proprieter[28].type = 'Carte CommunautÃ©';
+    Proprieter[34].type = 'Carte CommunautÃ©';
 
     Proprieter[4].type = 'violetdeux';
     Proprieter[4].prix = 60;
@@ -659,7 +662,7 @@ void initialisationProprieter()
         Proprieter[l].amelloyer = 100;
     }
 
-    Proprieter[15].type = 'grisfoncé';
+    Proprieter[15].type = 'grisfoncÃ©';
     Proprieter[15].prix = 170;
     Proprieter[15].loyer[0] = 22;
     Proprieter[15].loyer[1] = 70;
@@ -705,7 +708,7 @@ void initialisationProprieter()
         Proprieter[l].amelloyer = 160;
     }
 
-    Proprieter[25].type = 'rougefoncé';
+    Proprieter[25].type = 'rougefoncÃ©';
     Proprieter[25].prix = 250;
     Proprieter[25].loyer[0] = 30;
     Proprieter[25].loyer[1] = 110;
@@ -848,17 +851,17 @@ void vente(int prop_id, struct ID_proprieter Proprieter[prop_id], struct MONOP_J
                 }
              }
 
-             if (Proprieter[prop_id].hypo==0 && Proprieter[prop_id].amelioration==0)//Terrain hypothéquable et sans maisons
+             if (Proprieter[prop_id].hypo==0 && Proprieter[prop_id].amelioration==0)//Terrain hypothÃ©quable et sans maisons
              {
-                 Joueur[place_actu_joueur].argent += (Proprieter[prop_id].prix/2);//hypothéquer= prix du terrain/2
-                 Proprieter[prop_id].hypo = 1;//terrain plus hypothéquable
+                 Joueur[place_actu_joueur].argent += (Proprieter[prop_id].prix/2);//hypothÃ©quer= prix du terrain/2
+                 Proprieter[prop_id].hypo = 1;//terrain plus hypothÃ©quable
              }
              else
              {
-                 if(Joueur[place_actu_joueur].argent >= (Proprieter[prop_id].prix/2))//si le joueur possede plus d'argent que l'hypo va lui rapporter alors il ne peut pas hypothéquer
+                 if(Joueur[place_actu_joueur].argent >= (Proprieter[prop_id].prix/2))//si le joueur possede plus d'argent que l'hypo va lui rapporter alors il ne peut pas hypothÃ©quer
                  {
                      Joueur[place_actu_joueur].argent -= (Proprieter[prop_id].prix/2);
-                     Proprieter[prop_id].hypo = 0;//le terrain reste hypothéquable
+                     Proprieter[prop_id].hypo = 0;//le terrain reste hypothÃ©quable
                  }
              }
         }
